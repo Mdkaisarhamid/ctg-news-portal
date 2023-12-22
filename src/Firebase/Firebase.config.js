@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA4fNfHb_5FjbvCDyU8ZzL_iv93-eCeM-E",
-  authDomain: "ctg-news-portal.firebaseapp.com",
-  projectId: "ctg-news-portal",
-  storageBucket: "ctg-news-portal.appspot.com",
-  messagingSenderId: "800407707865",
-  appId: "1:800407707865:web:8088b5501851c6b2431ec8",
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID,
 };
 
 // Initialize Firebase

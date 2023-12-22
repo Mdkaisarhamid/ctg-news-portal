@@ -11,7 +11,7 @@ import QZone from "../Q-Zone/QZone";
 import bg from "../../../assets/bg.png";
 const RightNav = () => {
   return (
-    <div>
+    <div className="d-flex flex-column gap-2">
       <h2>Login with</h2>
       <Button variant="outline-primary">
         <FaGoogle />
@@ -22,7 +22,7 @@ const RightNav = () => {
         <span> </span>Login with github
       </Button>
 
-      <div>
+      <div className="mt-4">
         <h4>Find us on </h4>
         <ListGroup>
           <ListGroup.Item>
